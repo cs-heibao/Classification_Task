@@ -25,7 +25,7 @@ The project was implemented aims to realize three types rock thin section images
 1. Train your model on PASCAL VOC Format.
                 
         cd $Classification_Task
-        python3 train.py
+        python3 googlenet-p-r-f1-lambda.py/googlenet-p-r-f1-lambda-rms.py/mobilenetv2-p-r-f1-lambda-rms.py
                 
 2. Train results, it will create '.pth' model, loss log file and evaluation log file.
                 
@@ -33,7 +33,4 @@ The project was implemented aims to realize three types rock thin section images
         #   - $Classification_Task/weights/'{}_{}.pth'
         # the loss log and evaluation log saved in:
         #   - $Classification_Task/log/'{}'/loss.txt'.format(lstrftime('%b%d-%H'))
-        #   - $RDNet/log/'{}'/result.txt'.format(lstrftime('%b%d-%H'))
-
-        
-        
+        #   - $RDNet/log/'{}'/result.txt'.format(lstrftime('%b%d-%H')
